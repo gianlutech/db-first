@@ -4,6 +4,7 @@ Entity Auto
 Columns                  | Data Type     | Attributi                            | Index
 
 id                         INT             UNIQUE, NOT_NULL, AUTO_INCREMENT       PRIMARY KEY
+Price                      FLOAT(6,2)      NULL
 Condizioni                 VARCHAR(10)     NOT_NULL
 Immatricolazione           TIMESTAMP       NULL
 Chilometraggio             SMALL           NULL
