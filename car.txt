@@ -1,0 +1,24 @@
+
+Entity Auto
+
+Columns                  | Data Type     | Attributi                            | Index
+
+id                         INT             UNIQUE, NOT_NULL, AUTO_INCREMENT       PRIMARY KEY
+Condizioni                 VARCHAR(10)     NOT_NULL
+Immatricolazione           TIMESTAMP       NULL
+Chilometraggio             SMALL           NULL
+Alimentazione              VARCHAR(20)     NULL
+Cilindrata                 VARCHAR(20)     NOT_NULL
+Potenza                    VARCHAR(20)     NOT_NULL
+Tipo di cambio             VARCHAR (20)    NOT_NULL
+Colore esterno             VARCHAR(50)     NOT_NULL
+Colore interni             VARCHAR(50)     NOT_NULL
+Gommatura                  TINYINT         NOT_NULL
+Posti                      TINYINT         NOT_NULL
+Porte                      TINYINT         NOT_NULL
+Peso                       TINYINT         NOT_NULL
+Classe emissioni           VARCHAR(50)     NOT_NULL
+Garanzia                   VARCHAR(20)     NOT_NULL
+Proprietari precedenti     TINYINT         NOT_NULL
+Trazione                   VARCHAR(30)     NOT_NULL
+Accessori                  TEXT            NOT_NULL
